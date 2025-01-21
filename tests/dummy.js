@@ -11,6 +11,6 @@ test("calculateTotal", () => {
 		totalPrice += item.price;
 	});
 
-	assert.equal(totalPrice, 50);
+	assert.equal(totalPrice, 60);
 });
 

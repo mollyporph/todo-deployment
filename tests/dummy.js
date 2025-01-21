@@ -1,5 +1,6 @@
-import test from "node:test";
-import assert from "node:assert/strict";
+const test = require("node:test")
+const assert = require("node:assert/strict")
+
 
 test("calculateTotal", () => {
 	const cartItems = [{ price: 20 }, { price: 30 }];
